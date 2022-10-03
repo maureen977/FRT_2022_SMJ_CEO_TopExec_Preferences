@@ -14,7 +14,7 @@ The figure below describes the flow of the code for the matching process contain
 
 2. **Execucomp data** – The panel data of all the executives of the companies in the US.
 
-  ## Steps to Run the Code ##
+## Steps to Run the Code ##
 
 (Before running the code, change the file and folder paths in .env file if required)
 
@@ -23,6 +23,10 @@ The figure below describes the flow of the code for the matching process contain
 3. Perform record linkage, use the following command in the fastlink folder: ```sbatch run_fastlink.job```
 4. Create final crosswalk, use the following command in crosswalk folder: ```sbatch agg_match.job```
 
+## Adaptation to INSEAD Server
 
-
+1. Download the required applications (Python, Jupyter Notebok, R, Stata) & check the version of packages (see requirements.txt)
+2. Change the file and folder paths in .env file
+3. Change sbatch to bash or download the slurm-client (no queueing system on this server)
+4. Submit jobs following the suggested order
 
