@@ -1,0 +1,10 @@
+1/16/2023
+Hi Andrew and Guoli,
+Greetings! I'd like to update you on the L2-Execump data processing and more importantly clarify some questions.
+
+1. I started the first task in the pipe 
+2. Execucomp: lack two variables: age and zip, state
+keep execid exec_fullname name_last name_first ///
+	 name_middle gender city state zipcode coname ///
+	 salary bonus year ceoann yob gvkey
+3. match by year?
